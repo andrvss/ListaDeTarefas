@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif; /* Mantenha uma fonte padrão para compatibilidade */
+    background-color: #f0f0f0; /* Cor de fundo clara */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.lista-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 450px; /* Ajuste a largura conforme a imagem */
+    border-top: 6px solid #6c63ff; /* Borda superior colorida */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8em; /* Ajuste o tamanho da fonte do título */
+}
+
+.lista-de-tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+.tarefa {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    color: #555; /* Cor do texto das tarefas */
+    font-size: 1em; /* Tamanho da fonte das tarefas */
+}
+
+.tarefa-destacada {
+    color: #333; /* Mantém a cor principal para o item destacado */
+    font-weight: bold; /* Deixa o texto em negrito, como na imagem */
+    /* Remova a borda esquerda verde, pois não aparece na imagem */
+}
